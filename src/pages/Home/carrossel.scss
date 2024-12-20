@@ -1,0 +1,28 @@
+.carrossel {
+    text-align: center;
+    position: relative;
+    width: 850px;
+    margin: auto;
+}
+
+.img_carrossel {
+    width: 100%;
+    height: 425px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 900px) {
+    .carrossel {
+        text-align: center;
+        position: relative;
+        width: 500px;
+        margin: auto;
+    }
+    .img_carrossel {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
