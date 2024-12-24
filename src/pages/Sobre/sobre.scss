@@ -16,8 +16,13 @@ $blue-1: #007bff;
     background-color: $bg-color;
 }
 
+.sub_txt {
+    font-size: 25px;
+    font-weight: bold;
+    color: $secundary-color;
+  }
 
-.area01{
+.area{
     display: flex;
     justify-content: space-between;
     margin: 30px;
@@ -25,7 +30,7 @@ $blue-1: #007bff;
     height:600px;
   
   
-    .area_txt01{
+    .area_txt{
       padding: 16px;
       margin: 16px;
       height: 425px;
@@ -46,7 +51,6 @@ $blue-1: #007bff;
       }
   
   }
-
 
   .area_cdestaque{
 

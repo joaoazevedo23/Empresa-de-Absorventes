@@ -1,18 +1,41 @@
+import './forms.scss'; 
 import React from 'react';
 import Header from '../../components/Header/header';
 import Footer from '../../components/Footer/footer';
 
-
-function Form() {
+function Forms() {
     return (
         <div className="container">
-            <Header/>
-            <h1>Entre em Contato</h1>
-            <p>Preencha o formulário para entrar em contato conosco.</p>
-            <Footer/>
+            <Header />
+            <div className="area_destaque_frm">
+                <p className="titulo_txt_frm">Entre em contato conosco!</p>
+            </div>
+            <div className="area_frm">
+                <div className="area_txt_frm">
+                    <h2 className="subt_txt_frm">Quem Somos</h2>
+                    <p>
+                        Na Auren, acreditamos que a melhor forma de evoluir é ouvindo você! Estamos aqui para esclarecer suas dúvidas, receber sugestões e ajudar no que for necessário.<br/><br/>
+
+                        <strong>💌 E-mail:</strong> contato@auren.com.br<br/>
+                        <strong> 📞 Telefone:</strong> 0800 123 4567 (Atendimento de segunda a sexta, das 8h às 18h)<br/>
+                        <strong> 📱 Redes sociais:</strong> Encontre-nos no Instagram, Facebook e Twitter em @aurenoficial<br/><br/>
+
+                        Ou preencha o formulário e nossa equipe retornará o mais breve possível.<br/>
+
+                        Porque cuidar de você é nossa prioridade. 💜<br/>
+                        <strong>Auren – Conforto e proteção que acompanham você todos os dias.</strong>
+                    </p>
+                </div>
+                <div className="forms_frm">
+                    <h2 className="subt_txt_frm">Formulário</h2>
+                    <div className="caixa_frm">
+
+                    </div>
+                </div>
+            </div>
+            <Footer />
         </div>
     );
 }
 
-export default Form
-    
+export default Forms;
