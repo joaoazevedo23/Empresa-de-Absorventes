@@ -36,7 +36,7 @@ $blue-1: #007bff;
     justify-content: space-between;
     margin: 30px;
     padding: 15px;
-    height: 600px;
+    height: 100%;
 }
 
 .area_txt_frm {
@@ -57,15 +57,43 @@ $blue-1: #007bff;
     margin: 16px;
     background-color: $bg-prod;
     margin: 16px;
-    height: 400px;
+    height: 100%;
     width: 400px;
     border-radius: 10px;
 
-}
+    .subt_txt_frm {
+        font-size: 25px;
+        font-weight: bold;
+        color: $secundary-color;
+        text-align: center;
+    }
+    
+    .caixa_frm{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;   
+        margin: 16px;
+        border: solid 2px;
+        border-radius: 10px;
+    }
+    
+    .linha{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    
+    .btn{
+        height: 30px;
+        width: 100px;
+    }
+    
+    .opcoes{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
 
-.subt_txt_frm {
-    font-size: 25px;
-    font-weight: bold;
-    color: $secundary-color;
 }
 
