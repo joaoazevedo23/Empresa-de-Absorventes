@@ -1,0 +1,63 @@
+$primary-color: #8D0B41;
+$secundary-color: #b62762;
+$bg-color: #faefd2;
+$bg-prod: white;
+$blue-1: #007bff;
+
+.content_frm {
+    padding: 16px;
+    margin: 16px;
+    background-color: $bg-prod;
+    margin: 16px;
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+
+    .subt_txt_frm {
+        font-size: 25px;
+        font-weight: bold;
+        color: $secundary-color;
+        text-align: center;
+    }
+    
+}
+
+
+.forms_frm{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;   
+    margin: 16px;
+    border: solid 2px;
+    border-radius: 10px;
+
+    .linha{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    
+        .inputs{
+            padding: 5px;
+        }
+    }
+    
+    .btn{
+        height: 30px;
+        width: 100px;
+    }
+    
+    .opcoes{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.opcoes{
+
+    .checkbox_op{
+        padding: 5px;
+        display: flex;
+        gap: 5px;
+    }
+}

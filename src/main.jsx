@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/home.jsx';
 import Sobre from './pages/Sobre/sobre.jsx';
-import Form from './pages/Form/forms.jsx';
+import Contato from './pages/Contato/contato.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -19,7 +19,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/sobre" element={<Sobre />} />
-                <Route path="/forms" element={<Form />} />
+                <Route path="/contato" element={<Contato />} />
             </Routes>
         </Router>
     );
