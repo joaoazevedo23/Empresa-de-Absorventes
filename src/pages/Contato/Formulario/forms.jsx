@@ -9,13 +9,11 @@ function Forms() {
                         <div className="linha">
                             <label>Nome:</label>
                             <input type="text" id="nome" class="inputs" placeholder='Digite seu Nome'/>
-                            <span className='span-req'>Nome deve ter no mínimo 3 caracteres</span>
                         </div>
                         
                         <div className="linha">
                             <label  >Email:</label>
                             <input type="email" id="email" class="inputs" placeholder='Digite seu Email' />
-                            <span className='span-req'>Digite um email válido</span>
                         </div>
                         
                         <div className="linha">
@@ -26,11 +24,11 @@ function Forms() {
                         <div className="linha">
                             <label  >Endereço:</label>
                             <input type="text" id="end" class="inputs" placeholder='Digite seu Endereço' />
-                            <span className='span-req'>O endereço deve ter no mínimo 10 caracteres</span>
                         </div>
                        
+                        
+                        <p>Qual tipo de absorvente você mais utiliza?</p>
                         <div className="opcoes">
-                        <label  >Qual tipo de absorvente você mais utiliza?</label>
                         <div className="checkbox_op">
                             <label for="D">Diurno:</label>
                             <input type="checkbox" id="D" class="inputs" placeholder='Escreva uma mensagem para nós!' />
@@ -47,10 +45,10 @@ function Forms() {
                         </div>
                         </div>
 
-                        <p>Nos de sua sugestão</p>
+                        <p>Nos de sua opinião sobre nosso trabalho!</p>
                         <textarea name="sugest_txtarea" id="sugest_txtarea" class="inputs" placeholder='Escreva uma mensagem para nós!'></textarea>
-                        
-                        <button className='btn' type='submit'>Enviar</button>
+                        <br/>
+                        <button className='btn'>Enviar</button>
                     </form>
                 </div>
     );
