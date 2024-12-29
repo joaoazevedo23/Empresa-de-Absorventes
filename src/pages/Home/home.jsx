@@ -16,7 +16,7 @@ function Home() {
                 <h2 className="titulo_home">Auren, com você de dia e de noite</h2>
             </center>
 
-            <div className="area_destacada">
+            <div className="area_destacada_home">
                 <h2 className="titulo_destaque_home">Destaques e benefícios</h2>
             </div>
             <div className="area_beneficios_home">

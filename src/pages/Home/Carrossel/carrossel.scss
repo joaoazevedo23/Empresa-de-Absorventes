@@ -3,26 +3,41 @@
     position: relative;
     width: 850px;
     margin: auto;
+    transition: 0.4s;
 }
 
 .img_carrossel {
     width: 100%;
     height: 425px;
     object-fit: cover;
+    transition: 0.4s;
 }
 
 
 @media (max-width: 1100px) {
     .carrossel {
-        text-align: center;
-        position: relative;
         width: 700px;
-        margin: auto;
     }
     .img_carrossel {
-        width: 100%;
         height: 350px;
-        object-fit: cover;
     }
 }
 
+@media (max-width: 740px) {
+    .carrossel {
+        width: 500px;
+    }
+    .img_carrossel {
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .carrossel {
+        width: 340px;
+    }
+    .img_carrossel {
+        height: 170px;
+    }
+}

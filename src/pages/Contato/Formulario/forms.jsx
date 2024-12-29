@@ -8,17 +8,17 @@ function Forms() {
             <form className="forms_frm">
                 <div className="linha">
                     <label>Nome:</label>
-                    <input type="text" id="nome" class="inputs" placeholder='Digite seu Nome' />
+                    <input type="text" id="nome" class="inputs" placeholder='Digite seu Nome' required/>
                 </div>
 
                 <div className="linha">
                     <label  >Email:</label>
-                    <input type="email" id="email" class="inputs" placeholder='Digite seu Email' />
+                    <input type="email" id="email" class="inputs" placeholder='Digite seu Email' required/>
                 </div>
 
                 <div className="linha">
                     <label  >Telefone:</label>
-                    <input type="text" id="tel" class="inputs" placeholder='Digite seu Telefone' />
+                    <input type="text" id="tel" class="inputs" placeholder='Digite seu Telefone' required/>
                 </div>
 
                 <div className="linha">
@@ -46,7 +46,7 @@ function Forms() {
                 </div>
 
                 <p>Nos de sua opinião sobre nosso trabalho!</p>
-                <textarea name="sugest_txtarea" id="sugest_txtarea" class="inputs" placeholder='Escreva uma mensagem para nós!'></textarea>
+                <textarea name="sugest_txtarea" id="sugest_txtarea" class="inputs" placeholder='Escreva uma mensagem para nós!' required></textarea>
                 <br />
                 <button className='btn'>Enviar</button>
             </form>
