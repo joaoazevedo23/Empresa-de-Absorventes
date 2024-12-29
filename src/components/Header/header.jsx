@@ -11,7 +11,7 @@ function Header() {
                 <ul className="list_header">
                     <li><Link to="/" className="pages_hd">Home</Link></li>
                     <li><Link to="/sobre" className="pages_hd">Sobre nós</Link></li>
-                    <li><Link to="/forms" className="pages_hd">Entre em Contato</Link></li>
+                    <li><Link to="/contato" className="pages_hd">Entre em Contato</Link></li>
                 </ul>
             </nav>
         </header>

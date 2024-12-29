@@ -1,0 +1,103 @@
+$primary-color: #8D0B41;
+$secundary-color: #b62762;
+$bg-color: #faefd2;
+$white-txt-bg: white;
+$blue-1: #007bff;
+
+.content_frm {
+    padding: 16px;
+    margin: 16px;
+    background-color: $white-txt-bg;
+    margin: 16px;
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+
+    .subt_txt_frm {
+        font-size: 25px;
+        font-weight: bold;
+        color: $secundary-color;
+        text-align: center;
+    }
+    
+}
+
+
+.forms_frm{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;   
+    margin: 16px;
+    border: solid 2px $secundary-color;
+    border-radius: 10px;
+    color: $secundary-color;
+    font-weight: 600;
+
+    .linha{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px; 
+    }
+
+    .inputs {
+        padding: 5px;
+        outline: none; 
+        border: none;
+        border-bottom: 2px solid $primary-color; 
+        color: $primary-color; 
+        transition: 0.6s; 
+
+    
+        &::placeholder {
+            color: $secundary-color; 
+            transition: 0.6s;
+        }
+    
+        &:focus {
+            border-color: $white-txt-bg;
+            color: $white-txt-bg; 
+            background-color: $primary-color; 
+    
+            &::placeholder {
+                color: $white-txt-bg;
+            }
+        }
+    }
+    
+    .btn{
+        height: 40px;
+        width: 100%;
+        background-color: $secundary-color;
+        color: $white-txt-bg;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 2px solid $white-txt-bg;
+        transition: 0.4s;
+        cursor: pointer;
+
+        &:hover{
+            color: $secundary-color;
+            background-color: $white-txt-bg;
+            border-color: $primary-color;
+            font-weight: 700;
+        }
+    }
+    
+    .opcoes{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        gap: 5px;
+        font-weight: 200;
+    }
+}
+
+.opcoes{
+
+    .checkbox_op{
+        padding: 5px;
+        display: flex;
+        gap: 5px;
+        
+    }
+}
