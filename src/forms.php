@@ -1,5 +1,7 @@
 <?php
 
+$port = 5173; /* Variável que determina a porta de retorno à aplicação após a inserção de dados no formulario e no banco de dados */
+
 include 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -26,7 +28,7 @@ VALUES('$nome', '$email', '$telefone', '$endereco', '$op1', '$op2', '$op3', '$su
 
 $result = mysqli_query($conexao, $query);
 
-$port = 5177;
+
 
 if ($result) {
     echo "
