@@ -40,7 +40,7 @@ O arquivo principal é o `main.jsx`, onde os componentes são conectados e a ord
 
 2. Vá até a pasta do projeto: 'Empresa-de-absorventes' e a insira nesse caminho: `C:\xampp\htdocs`, para que ela possa ter as conexões necessárias com o servidor XAMPP.
 
-3. Inicie o XAMPP e ative as opções MySQL e Apache, entrando no Admin do MySQL e adicionando o banco manualmente ao gerenciador phpMyAdmin do XAMPP.
+3. Inicie o XAMPP e ative as opções MySQL e Apache, entrando no Admin do MySQL e adicionando o banco manualmente ao gerenciador phpMyAdmin do XAMPP. O nome do banco de dados é `bdforms`
 
 4. Após terminar os outros passos, instale as dependências no arquivo da aplicação:
    npm i
