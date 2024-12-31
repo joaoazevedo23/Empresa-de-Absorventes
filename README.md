@@ -48,7 +48,7 @@ O arquivo principal é o `main.jsx`, onde os componentes são conectados e a ord
 5. Inicie o servidor de desenvolvimento:
    npm run dev
 
-OBS: A aplicação está programada para retornar a porta 5173, que é a porta do servidor de desenvolvimento padrão. Caso esta porta esteja ocupada em seu computador e a aplicação iniciar automaticamente em outra porta, vá pelo caminho `C:\xampp\htdocs\Empresa-de-Absorventes\src\forms.php` e altere no arquivo `forms.php` o valor da variável ´$port´, que está bem no topo da página neste arquivo.
+OBS: A aplicação está programada para retornar a porta 5173, que é a porta do servidor de desenvolvimento padrão. Caso esta porta esteja ocupada em seu computador e a aplicação iniciar automaticamente em outra porta, vá pelo caminho `C:\xampp\htdocs\Empresa-de-Absorventes\src\forms.php` e altere no arquivo `forms.php` o valor da variável `$port` com o número da porta de desenvolvimento que estiver sendo utilizada. A variável está bem no topo da página do arquivo mencionado.
 
 ## Contato
 - Nome: João Paulo Ferreira de Azevedo
