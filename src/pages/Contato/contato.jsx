@@ -18,7 +18,7 @@ function Contato() {
                     <p>
                         Na Auren, acreditamos que a melhor forma de evoluir é ouvindo você! Estamos aqui para esclarecer suas dúvidas, receber sugestões e ajudar no que for necessário.<br /><br />
 
-                        <strong>💌 E-mail:</strong> contato@auren.com.br<br />
+                        <strong>💌 E-mail:</strong> contato@aurenfic.com.br<br />
                         <strong> 📞 Telefone:</strong> 0800 123 4567 (Atendimento de segunda a sexta, das 8h às 18h)<br />
                         <strong> 📱 Redes sociais:</strong> Encontre-nos no Instagram, Facebook e Twitter em <strong>@aurenoficialfic</strong><br /><br />
 

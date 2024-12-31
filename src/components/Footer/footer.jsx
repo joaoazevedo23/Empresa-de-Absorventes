@@ -11,11 +11,6 @@ function Footer() {
                     <li><Link to="/" className="pages_ft">Home</Link></li>
                     <li><Link to="/sobre" className="pages_ft">Sobre nós</Link></li>
                     <li><Link to="/contato" className="pages_ft">Entre em Contato</Link></li>
-                    <li>
-                        <a href="https://www.alwaysbrasil.com.br/pt-br/calendario-menstrual" target="_blank" className="pages_ft">
-                            Calculadora do ciclo menstrual - Always
-                        </a>
-                    </li>
                 </ul>
             </nav>
             <p className="copy_txt_ft">Auren © 2024. Todos os direitos reservados.</p>
